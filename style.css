@@ -1,0 +1,50 @@
+.bg-danger h3{
+    color: white;
+    text-align: center;
+}
+.bg-danger{
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+.bg-danger p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+form input{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid aqua;
+    color: white;
+}
+form input::placeholder{
+    color: white;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    margin: 5px11;
+}
+button.reset{
+    color: white;
+    background-color: transparent;
+}
+button{
+    margin: auto;
+    color: black;
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
